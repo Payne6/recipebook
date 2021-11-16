@@ -1,0 +1,92 @@
+//stylesheet
+
+//INDEX PAGE
+#index_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#index_top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+#index_header {
+    font-size: 50px;
+    font-family: "Andale Mono", monospace;
+}
+
+#index_categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.index_category {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    margin-top: 5px;
+}
+
+.index_link {   
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: "Andale Mono", monospace;
+} 
+
+.index_link:hover {
+}
+
+.index_link: visited {
+    text-decoration: none;
+    color: black;
+}
+
+#starters_link:hover {
+    background-color: orange;
+}
+
+#meat_link:hover {
+    background-color: orangeRed;
+}
+
+#fish_link:hover {
+    background-color: royalBlue;
+}
+
+#sauces_link:hover {
+    background-color: lightSlateGray;
+}
+
+#sides_link:hover {
+    background-color: mediumSeaGreen;
+}
+
+#puddings_link:hover {
+    background-color: lightCoral;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #index_header {
+        text-align: center;
+    }
+    
+    .index_category {
+        width: 100%;
+    }
+}
